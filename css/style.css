@@ -1,0 +1,85 @@
+#main {
+    background-color: #ffc387;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+h4 {
+    font-size: 2rem;
+    color: #c71585;
+    text-shadow: 2px 2px white;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: #c71585;
+    text-shadow: 2px 2px white;
+}
+
+h6 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#heart {
+    position: relative;
+    top: 100px;
+    left: 90px;
+    transition: all ease-in-out 2000ms;
+}
+
+#heartImage {
+    width: 300px;
+    height: 300px;
+    opacity: .5;
+}
+
+#text {
+    position: absolute;
+    top: 65px;
+    left: 76px;
+    text-align: center;
+    line-height: 5px;
+}
+
+#offer {
+    position: relative;
+    top: -140px;
+    left: 500px;
+    transform: rotate(-90deg);
+}
+
+#replay {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: coral;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#replay:hover {
+    background-color: white;
+    color: coral;
+}
